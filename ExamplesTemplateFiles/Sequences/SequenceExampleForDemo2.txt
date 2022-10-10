@@ -1,0 +1,7 @@
+LIV	-500	1300	20	0.1	1	1	10	Reverse + Forward	Line	pin
+MPPT	False	700	5	2000	100	ON	OFF	1000	pin
+LIV	-500	1300	20	0.1	1	1	10	Reverse + Forward	Line	pin
+WAIT	10
+FixedCurrent	False	20	2	2000	100	ON	OFF	1000	pin
+FixedVoltage	False	500	5	2000	100	ON	OFF	1000	pin
+DIV	-500	1300	20	0.1	1	1	10	Reverse + Forward	Line	pin

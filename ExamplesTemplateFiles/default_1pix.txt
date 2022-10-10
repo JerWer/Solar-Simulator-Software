@@ -1,0 +1,56 @@
+UserName	username
+SampleName	batch#_sample#
+Comment	
+aftermppt	False
+Meas. type	LIV
+#rep	1
+DelayRep	5
+threaded	True
+
+Diode1sun	0.0
+Refcurrentlimit	0.1
+temperature	25.0
+assume1sun	True
+
+minvoltage	-200.0
+maxvoltage	1200.0
+JVstepsize	20.0
+currentlimit	100.0
+integtime	50.0
+JVdelaypoints	50.0
+delayshutter	100.0
+scandirection	Reverse + Forward
+polarity	pin
+
+QSSNbpts	10.0
+QSSmppptsdensity	3
+QSSDevCrit	0.2
+QSSTimeDev	3.0
+QSSTimeMax4Fail	60.0
+
+useVmpp	True
+startvoltage	500.0
+MPPTstepsize	5
+voltagelimit	2000.0
+delaypointsmpp	100.0
+lighton	True
+keeplightafter	False
+
+PixelA	False
+PixelB	False
+PixelC	False
+PixelD	False
+PixelE	False
+PixelF	False
+A-area	0.06
+B-area	0.06
+C-area	0.06
+D-area	0.06
+E-area	0.06
+F-area	0.06
+Allpix	False
+
+PixelX	1
+PixelArea	1.0
+
+CurrentTab	0
